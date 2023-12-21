@@ -12,14 +12,14 @@
 ✅ Disconnects, availability and downtime stats
 ✅ Play sound when connection goes online or offline
 ✅ Events log with CSV export
-✅ Statistics with realtime monitoring
-✅ Retina-ready icon sets
+✅ Realtime connectivity and latency monitoring
 ✅ Light and dark themes support
 
-🚀 NEW IN ICM v4.0
-➕ Added Downtime stats
-➕ Added Statistics page with realtime monitoring
-➕ Added Status duration to the Log
+🚀 NEW IN ICM v5.0
+➕ Realtime connectivity and latency monitoring
+➕ Main popup opens up faster
+➕ A couple of bugs fixed
+➕ Google's manifest v3 compliance
 
 👓 FAQ (https://internetmon.org/#faq)
 Q: Where is the extension icon?
@@ -41,22 +41,22 @@ Q: Does this extension have access to my browsing history, etc?
 A: It does NOT. Moreover, it does not require any special access at all (you can notice that other extensions ask you to give them some permissions during the installation process)
 
 Q: Can this extension measure Internet speed?
-A: It cannot. Please, use Speedtest by Ookla – https://chrome.google.com/webstore/detail/speedtest-by-ookla/pgjjikdiikihdfpoppgaidccahalehjh?hl=en
+A: It cannot. Please, use Speedtest by Ookla — https://chrome.google.com/webstore/detail/speedtest-by-ookla/pgjjikdiikihdfpoppgaidccahalehjh?hl=en
 
 Q: Will it work if Chrome is closed?
 A: Not, it will not. You need to have a Chrome window open to track your connection log. It's relatively easy to add Chrome to autostart on Windows, Mac or Linux
 
 Q: Will it work if computer is in sleep?
-A: Yes, it should work, but the mechanism of tracking the disconnects while the computer is in sleep has not been thoroughly tested. Macs, for example, wake up every couple minutes and ICM checks the connection. But do not rely on precise measurement during the computer sleep, keep the computer running
+A: Yes, it should work, but the mechanism of tracking the disconnects while the computer is in sleep has not been thoroughly tested. Macs, for example, wake up every couple minutes and ICM checks the connection. But do not rely on precise measurement during the computer sleep, keep the computer running. Alternatively, use Connection monitor feature inside ICM to check what's going on. Access it via main extension popup
 
-Q: Can you use it on Microsoft EDGE?
-A: Yes, you can
+Q: Can you use it on Microsoft EDGE, Brave or Chromium?
+A: Yes, you can. It works on all Chromium-based browsers
 
 Q: Is there a Firefox extension?
-A: Currently, only Google Chrome and Microsoft EDGE are supported
+A: Currently, only Google Chrome and Microsoft EDGE are supported. There is a feature request https://bit.ly/icm-firefox to implement the Firefox version. Vote for it if you want to speed up the development
 
 Q: Can you give an advice on how to improve Internet connection overall?
-A: Read the article about the 3 primary reasons of Internet connection issues – https://bit.ly/icm-improve-conn
+A: Read the article about the 3 primary reasons of Internet connection issues — https://bit.ly/icm-improve-conn
 
 Icons by svgrepo.com and flaticon.com
 Contact: internetmonit@gmail.com
